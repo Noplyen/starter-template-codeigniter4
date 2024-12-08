@@ -1,0 +1,22 @@
+{
+  "name": "admin-bootstrap",
+  "version": "1.0.0",
+  "description": "## What is CodeIgniter?",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build-admin": "sass sass/admin/import.scss public/resources/css/bootstrap-admin.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "gridjs": "^6.2.0",
+    "sass": "1.2",
+    "sweetalert2": "^11.6.13",
+    "tippy.js": "^6.3.7"
+  }
+}

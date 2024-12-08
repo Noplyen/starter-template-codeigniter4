@@ -1,0 +1,6 @@
+/* Hide sidebar on small screens */
+@media (max-width: 767px) {
+  #admin-sidebar {
+    display: none;
+  }
+}

@@ -1,0 +1,20 @@
+// NAVBAR
+.navbar-toggler {
+  border: none ;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+///// FORM
+.form-control:focus {
+  box-shadow: 0 0 5px $secondary-color;
+  border-color: $secondary-color;
+}
+
+/// FORM CHECK
+.form-check-input[type="checkbox"] {
+  border-radius: 0.25em;
+  border: 1px solid $secondary-color;
+}

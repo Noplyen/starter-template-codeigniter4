@@ -1,0 +1,49 @@
+/// THIS SCSS FOR COMPONENT
+
+#button-toggle-navbar {
+  color: $primary-color;
+  background-color: $secondary-color;
+  border-color: $secondary-color;
+}
+#button-toggle-navbar:hover,
+#button-toggle-navbar:focus,
+#button-toggle-navbar:active {
+  color: $primary-color;
+  background-color: $secondary-color;
+  border-color: $secondary-color;
+}
+
+/// NAV SIDEBAR
+#admin-sidebar-link-parent {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+#admin-sidebar-link-parent a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#admin-sidebar-link-parent:hover{
+  background-color: rgba(227, 225, 225, 0.84);
+}
+
+#admin-list-collapse{
+  margin-left: 3rem;
+  font-size: 18px;
+}
+
+#admin-list-collapse a{
+  color: black;
+  text-decoration: none;
+}
+
+#admin-list-collapse a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+/// NAV SIDEBAR

@@ -1,0 +1,24 @@
+HELP.md
+build/.phpunit.cache/test-results
+build/logs/logfile.xml
+build/logs/testdox.html
+build/logs/testdox.txt
+build/.phpunit.cache/**
+build/logs/**
+
+!public/ck-editor5/build
+
+### IntelliJ IDEA ###
+.idea
+.idea/dataSources/**
+*.iws
+node_modules
+### VS Code ###
+.vscode/
+
+#-------------------------
+# Composer
+#-------------------------
+writable/session/**
+writable/debugbar/**
+writable/logs/**

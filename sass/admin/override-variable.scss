@@ -1,0 +1,25 @@
+/// PAGINATION
+$pagination-color :$secondary-color;
+$pagination-hover-color:$secondary-color;
+$pagination-focus-color:$secondary-color;
+$pagination-active-color: $primary-color;
+$pagination-active-bg: $secondary-color;
+$pagination-active-border-color: $secondary-color;
+
+//// BUTTON
+$btn-border-radius:0;
+$btn-close-focus-shadow: 0 0 0 0.25rem $secondary-color;
+
+// BORDER
+$border-radius:0;
+$input-border-color:$secondary-color;
+$form-check-input-focus-border:$secondary-color;
+$form-select-border-color:$secondary-color;
+$form-select-focus-border-color:$secondary-color;
+
+/// DROPDOWN
+$dropdown-border-radius: 0;
+
+
+//// FORM
+$input-font-size:18px;
